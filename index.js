@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send('Todo ok!! soy tu backend');
+    res.send('Todo ok!! soy tu backend!');
 });
 
 app.post("/create_preference", (req, res) => {
