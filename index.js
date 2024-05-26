@@ -189,8 +189,8 @@ app.post("/create_preference", (req, res) => {
     let preference = {
         items: req.body.items,
         back_urls: {
-            success: "http://localhost:5173/checkout",
-            failure: "http://localhost:5173/checkout",
+            success: "https://ec3.vercel.app/checkout",
+            failure: "https://ec3.vercel.app/checkout",
             pending: ""
         },
         auto_return: "approved",
